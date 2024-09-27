@@ -25,7 +25,9 @@ struct lexiconaApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
+            //MainAppView()
+            //ContentView()
         }
         .modelContainer(sharedModelContainer)
     }
